@@ -65,7 +65,7 @@ function removeTask(event){
 function clearTasks(){
   //taskList.innerHTML = '';
 
-  //Faster way
+  //Faster way - way two
   while(taskList.firstChild){
     taskList.removeChild(taskList.firstChild);
   }
